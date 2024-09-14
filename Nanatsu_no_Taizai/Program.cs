@@ -1,6 +1,18 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Nanatsu_no_Taizai.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+string conexao = builder.Configuration
+                .GetConnectionString("Conexao");
+var versao = ServerVersion.AutoDetect(conexao);
+builder.Services.AddDbContext<AppDbContext>(
+    opt => opt.UseMySql(conexao, versao)
+);
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

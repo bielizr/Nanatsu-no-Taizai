@@ -724,11 +724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\Nanatsu_no_Taizai.csproj",
+      "projectUniqueName": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai-2\\Nanatsu_no_Taizai\\Nanatsu_no_Taizai.csproj",
       "projectName": "Nanatsu_no_Taizai",
-      "projectPath": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\Nanatsu_no_Taizai.csproj",
+      "projectPath": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai-2\\Nanatsu_no_Taizai\\Nanatsu_no_Taizai.csproj",
       "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\obj\\",
+      "outputPath": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai-2\\Nanatsu_no_Taizai\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -738,6 +738,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
