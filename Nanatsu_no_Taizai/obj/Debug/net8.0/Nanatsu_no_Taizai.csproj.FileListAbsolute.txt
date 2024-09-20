@@ -1,0 +1,9 @@
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.csproj.AssemblyReference.cache
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.AssemblyInfoInputs.cache
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.AssemblyInfo.cs
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.csproj.CoreCompileInputs.cache
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.RazorAssemblyInfo.cache
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.RazorAssemblyInfo.cs
+C:\Users\etec\Desktop\Nanatsu-no-Taizai\Nanatsu_no_Taizai\obj\Debug\net8.0\Nanatsu_no_Taizai.sourcelink.json

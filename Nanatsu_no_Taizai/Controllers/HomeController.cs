@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Nanatsu_no_Taizai.Data;
 using Nanatsu_no_Taizai.Models;
 using Nanatsu_no_Taizai.ViewModels;
@@ -34,22 +33,21 @@ public class HomeController : Controller
     public IActionResult Details(int id)
     {
         Personagem personagem = _context.Personagens
-                        .Where(p => p.Numero == id)
-                        .Include(p => p.Tipos)
-                        .ThenInclude(t => t.Tipo)
-                        .Include(p => p.Regiao)
-                        .Include(p => p.Genero)
+                        .Where(p => p.Id == id)
+                        .Include(p => p.Raca)
+                        .ThenInclude(t => t.Raca)
+                        .Include(p => p.Cla)
                         .SingleOrDefault();
 
-        DetailVM detailVM = new()
+        DetailsVM detailVM = new()
         {
-            Atual = pokemon,
-            Anterior = _context.Pokemons
-                .OrderByDescending(p => p.Numero)
-                .FirstOrDefault(p => p.Numero < id),
-            Proximo = _context.Pokemons
-                .OrderBy(p => p.Numero)
-                .FirstOrDefault(p => p.Numero > id)
+            Atual = personagem,
+            Anterior = _context.Personagens
+                .OrderByDescending(p => p.Id)
+                .FirstOrDefault(p => p.Id < id),
+            Proximo = _context.Personagens
+                .OrderBy(p => p.Id)
+                .FirstOrDefault(p => p.Id > id)
         };
 
         return View(detailVM);

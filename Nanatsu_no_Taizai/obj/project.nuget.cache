@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2qX90D5qPo/urH6OcUha98h06NLX5DQEIj+WYbtVTMvXcbMI9jl796ZUbWEcHe1w0Yll3MpcN7oLcOX2D59qTA==",
+  "dgSpecHash": "fziPDNZm7vKYAdSRv1qT3yjzm73GgmOUHlMWfDXblLXIMcnnaWTDtSySWjU77GMc37erDOa1I2NFmrAxAyNLBQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai-2\\Nanatsu_no_Taizai\\Nanatsu_no_Taizai.csproj",
+  "projectFilePath": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\Nanatsu_no_Taizai.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
