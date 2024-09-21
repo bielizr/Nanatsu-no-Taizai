@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Nanatsu_no_Taizai.Data;
 using Nanatsu_no_Taizai.Models;
 using Nanatsu_no_Taizai.ViewModels;
+using Microsoft.EntityFrameworkCore; 
 
 namespace Nanatsu_no_Taizai.Controllers;
 
@@ -35,7 +36,6 @@ public class HomeController : Controller
         Personagem personagem = _context.Personagens
                         .Where(p => p.Id == id)
                         .Include(p => p.Raca)
-                        .ThenInclude(t => t.Raca)
                         .Include(p => p.Cla)
                         .SingleOrDefault();
 

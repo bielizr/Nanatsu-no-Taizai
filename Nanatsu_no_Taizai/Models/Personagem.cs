@@ -15,16 +15,18 @@ public class Personagem
 
     public string Descricao { get; set; }
 
-    [Required]
-    public int IdRaca { get; set; }
+    public string Imagem { get; set; }
 
-    [ForeignKey(nameof(IdRaca))]
+    [Required]
+    public int id_raca { get; set; }
+
+    [ForeignKey(nameof(id_raca))]
     public Raca Raca { get; set; }
 
-    public int? IdCla { get; set; }
+    public int? id_cla { get; set; }
 
-    [ForeignKey(nameof(IdCla))]
+    [ForeignKey(nameof(id_cla))]
     public Cla Cla { get; set; }
 
-    public byte[] Imagem { get; set; }
+    
 }

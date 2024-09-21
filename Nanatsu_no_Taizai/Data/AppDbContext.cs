@@ -32,13 +32,13 @@ public class AppDbContext : DbContext
         builder.Entity<Personagem>()
             .HasOne(p => p.Raca)
             .WithMany(r => r.Personagens)
-            .HasForeignKey(p => p.IdRaca)
+            .HasForeignKey(p => p.id_raca)
             .OnDelete(DeleteBehavior.Cascade);
 
         builder.Entity<Personagem>()
             .HasOne(p => p.Cla)
             .WithMany(c => c.Personagens)
-            .HasForeignKey(p => p.IdCla)
+            .HasForeignKey(p => p.id_cla)
             .OnDelete(DeleteBehavior.SetNull);
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Nanatsu_no_Taizai.props" />
+</Project>
