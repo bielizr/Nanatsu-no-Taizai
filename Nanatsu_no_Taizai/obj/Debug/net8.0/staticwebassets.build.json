@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u32FHUVHckq7QwoQEYEX6Sg9gTCDeCRwp0KGMX9GGOM=",
+  "Hash": "SnSrYrdwHl7QJ7KcT2U5NtDUAAcvViC/gxVCcZGnelg=",
   "Source": "Nanatsu_no_Taizai",
   "BasePath": "_content/Nanatsu_no_Taizai",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\King.webp"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\logo.png",
+      "SourceId": "Nanatsu_no_Taizai",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\",
+      "BasePath": "_content/Nanatsu_no_Taizai",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\Meliodas.webp",
