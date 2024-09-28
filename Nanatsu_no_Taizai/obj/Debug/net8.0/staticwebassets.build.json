@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SnSrYrdwHl7QJ7KcT2U5NtDUAAcvViC/gxVCcZGnelg=",
+  "Hash": "N6R9whqaoTmPF21zeMfvV3KWHtX6gxoP0apUsmMBybA=",
   "Source": "Nanatsu_no_Taizai",
   "BasePath": "_content/Nanatsu_no_Taizai",
   "Mode": "Default",
@@ -188,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\img\\King.webp"
     },
     {
-      "Identity": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\logo.png",
+      "Identity": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\Logo.png",
       "SourceId": "Nanatsu_no_Taizai",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\",
       "BasePath": "_content/Nanatsu_no_Taizai",
-      "RelativePath": "img/logo.png",
+      "RelativePath": "img/Logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+      "OriginalItemSpec": "wwwroot\\img\\Logo.png"
     },
     {
       "Identity": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\Meliodas.webp",

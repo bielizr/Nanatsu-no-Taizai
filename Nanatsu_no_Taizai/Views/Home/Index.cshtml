@@ -29,7 +29,7 @@
 						<!-- Card Pokemon - Inicio -->
 						<div class="col poke @string.Join(' ', personagem.Raca.Nome))">
 							<a asp-action="Details" asp-route-id="@personagem.Id" class="text-decoration-none">
-								<div class="card">
+								<div class="card" id="Personagem">
 									<img src="@personagem.Imagem" class="card-img-top" alt="@personagem.Nome" />
 									<div class="card-body">
 										<h5 class="card-text mb-1 text-white">Nº @personagem.Id.ToString("000")</h5>

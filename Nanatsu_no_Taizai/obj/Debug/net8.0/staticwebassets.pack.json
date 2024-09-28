@@ -33,16 +33,16 @@
       "PackagePath": "staticwebassets\\img\\King.webp"
     },
     {
+      "Id": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
       "Id": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\Meliodas.webp",
       "PackagePath": "staticwebassets\\img\\Meliodas.webp"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\Merlin.webp",
       "PackagePath": "staticwebassets\\img\\Merlin.webp"
-    },
-    {
-      "Id": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\img\\logo.png",
-      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\Nanatsu-no-Taizai\\Nanatsu_no_Taizai\\wwwroot\\js\\site.js",

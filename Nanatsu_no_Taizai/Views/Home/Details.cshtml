@@ -3,7 +3,7 @@
 				ViewData["Title"] = "Personagem";
 			}
 
-			<div class="container text-white">
+			<div class="container text-white" id="PersoStyle">
 				<div class="row">
 					<div class="col text-center">
 						@if (Model.Anterior != null)
@@ -30,8 +30,8 @@
 					</div>
 				</div>
 
-				<div class="row mt-5">
-					<div class="col-lg-5 p-0">
+				<div class="row mt-5" >
+					<div class="col-lg-5 p-0" id="ImgStyle" >
 						<img class="img-fluid cursor-pointer" src="@Model.Atual.Imagem" alt="@Model.Atual.Nome">
 					</div>
 					<div class="col-lg-7 fs-5 mt-4">
